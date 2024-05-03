@@ -5,6 +5,9 @@ Synthesizer mit einstellbarer Obertonreihe und Rotationseingabegerät
 # libraries
 numpy
 
+GUI bzw. Menü:
+https://realpython.com/python-gui-tkinter/
+
 standard build-in python library: 
 https://wiki.python.org/moin/Audio/
 
