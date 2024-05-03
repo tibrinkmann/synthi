@@ -8,6 +8,9 @@ numpy
 GUI bzw. Menü:
 https://realpython.com/python-gui-tkinter/
 
+oder mit PySimpleGUI:
+https://www.pysimplegui.com/
+
 standard build-in python library: 
 https://wiki.python.org/moin/Audio/
 
