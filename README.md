@@ -11,6 +11,9 @@ https://realpython.com/python-gui-tkinter/
 oder mit PySimpleGUI:
 https://www.pysimplegui.com/
 
+matplot in GUI:
+https://pythonprogramming.net/how-to-embed-matplotlib-graph-tkinter-gui/
+
 standard build-in python library: 
 https://wiki.python.org/moin/Audio/
 
