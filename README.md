@@ -27,7 +27,7 @@ https://github.com/ambv/aiotone/
 pedalboard:
 https://github.com/spotify/pedalboard
 
-# wbesites for info
+# websites for info
 https://medium.com/analytics-vidhya/understanding-oscillators-python-2813ec38781d
 
 https://plainenglish.io/blog/making-a-synth-with-python-oscillators-2cb8e68e9c3b
