@@ -34,3 +34,11 @@ https://plainenglish.io/blog/making-a-synth-with-python-oscillators-2cb8e68e9c3b
 
 https://www.physics.rutgers.edu/grad/509/03_Scipy.html
 
+# examples of Synths
+https://www.youtube.com/watch?v=InGrKBRRCUc&t=364s 
+
+https://www.youtube.com/watch?v=gGRs7a9GpHk
+https://github.com/denczo/pyblaster
+
+
+
