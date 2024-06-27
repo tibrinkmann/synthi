@@ -99,7 +99,12 @@ class Preset(ttk.Frame):
         frame.destroy()
 
     def load_synth(self):
-        syn = ["python3", "/home/synthi/synthi/keyboard_synth.py"]
+        
+        if self.overtones == "set":
+            syn = ["python3", "/home/synthi/synthi/keyboard_synth.py"]
+        elif self.overtones == "free":
+            syn = ["python3", "/home/synthi/synthi/keyboard_synth_free_overtone.py"]
+        
         subprocess.run(syn)
         return
 
