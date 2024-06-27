@@ -9,7 +9,7 @@ pg.mixer.init(frequency=44100,buffer=16000, size=-16, channels=1)
 font = pg.font.SysFont("Impact", 24)
 
 # Screen dimensions
-WIDTH, HEIGHT = 400, 400
+WIDTH, HEIGHT = 400, 300
 WHITE = (255, 255, 255)
 RED = (255, 0, 0)
 BLACK = (0, 0, 0)
@@ -22,7 +22,7 @@ MARGIN_Y = 50
 # Frequency range
 FREQ_MIN, FREQ_MAX = 1, 10
 
-screen = pg.display.set_mode((WIDTH, HEIGHT))
+screen = pg.display.set_mode((WIDTH, HEIGHT), pg.FULLSCREEN)
 
 
 # Function to map x position to frequency
