@@ -67,8 +67,8 @@ def synth(frequencies, amplitudes, duration, sampling_rate=44100):
 
 
 keylist = '123456789qwertyuioasdfghjklzxcvbnm,.'
-#notes_file = open(f"/home/synthi/synthi/noteslist.txt")
-notes_file = open(r"/home/tim/Desktop/Seminarprojekt/synthi/noteslist.txt")
+notes_file = open(f"/home/synthi/synthi/noteslist.txt")
+#notes_file = open(r"/home/tim/Desktop/Seminarprojekt/synthi/noteslist.txt")
 file_contents = notes_file.read()
 notes_file.close()
 noteslist = file_contents.splitlines()
