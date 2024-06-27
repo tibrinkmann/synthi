@@ -8,8 +8,9 @@ from midiconstants import NOTE_ON, NOTE_OFF
 
 pg.init()
 pg.mixer.init(frequency=44100,buffer=16000, size=-16, channels=1)
-width, height = 400, 400
-screen = pg.display.set_mode((0, 0), pg.FULLSCREEN)
+width, height = 400, 300
+#screen = pg.display.set_mode((0, 0), pg.FULLSCREEN)
+screen = pg.display.set_mode((width, height))
 font = pg.font.SysFont("Impact", 24)
 
 screen_adsr = pg.display.set_mode((width, height))
