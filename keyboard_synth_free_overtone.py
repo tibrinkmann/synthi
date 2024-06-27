@@ -5,7 +5,8 @@ import midiconstants
 from midiconstants import NOTE_ON, NOTE_OFF
 
 pg.init()
-pg.mixer.init(frequency=44100,buffer=16000, size=-16, channels=1)
+pg.mixer.pre_init(buffer=4096)
+pg.mixer.init(frequency=44100, size=-16, channels=1)
 font = pg.font.SysFont("Impact", 24)
 
 # Screen dimensions
