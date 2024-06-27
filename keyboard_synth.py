@@ -7,7 +7,7 @@ import midiconstants
 from midiconstants import NOTE_ON, NOTE_OFF
 
 pg.init()
-pg.mixer.pre_init(buffer=4096)
+pg.mixer.pre_init(buffer=512)
 pg.mixer.init(frequency=44100, size=-16, channels=1)
 width, height = 400, 300
 #screen = pg.display.set_mode((0, 0), pg.FULLSCREEN)
