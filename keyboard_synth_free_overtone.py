@@ -160,8 +160,8 @@ midi_in = rtmidi.MidiIn()
 available_ports = midi_in.get_ports()
 print(available_ports)
 if len(available_ports) > 1:
-    # midi_in.open_port(1)
-    # print(f"Opened Midi port: {available_ports[1]}")
+    midi_in.open_port(1)
+    print(f"Opened Midi port: {available_ports[1]}")
     print("open midi channel")
 else:
     #midi_in.open_virtual_port("My Virtual Port")
