@@ -9,7 +9,7 @@ pg.mixer.init(frequency=44100,buffer=16000, size=-16, channels=1)
 font = pg.font.SysFont("Impact", 24)
 
 # Screen dimensions
-WIDTH, HEIGHT = 800, 600
+WIDTH, HEIGHT = 400, 400
 WHITE = (255, 255, 255)
 RED = (255, 0, 0)
 BLACK = (0, 0, 0)
