@@ -135,7 +135,7 @@ def midi_callback(message, data=None):
             mod = keymod.index(str(event.unicode))
         elif key in keylist:
             key = key+str(mod)
-            #notes[key][0].fadeout(100)
+            notes[key][0].fadeout(200)
             keypresses.append([0, notes[key][1], pg.time.get_ticks()])
 
 midi_in.set_callback(midi_callback)
