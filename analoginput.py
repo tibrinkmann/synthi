@@ -10,7 +10,10 @@ button3 = Button(37)
 
 try:
     while True:
-    
+        
+        print(f"Poti 1 value = " + pot1.value)
+        print(f"Poti 2 value = " + pot2.value)
+        print("Button 1 Value = " + 
 
 except KeyboardInterrupt:
     print("End")
