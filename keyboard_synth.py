@@ -6,6 +6,20 @@ import rtmidi
 import midiconstants
 from midiconstants import NOTE_ON, NOTE_OFF
 
+# für analog-input: https://projects.raspberrypi.org/en/projects/physical-computing/13
+# 3 Bedienknöpfe... GPIO 5,6,26 = Pins 29,31,37
+# Wechselschalter GPIO 27,22,16 = Pins 13,15,16
+#import spidev
+#from gpiozero import MCP3008, Button
+#from pynput.mouse import Button as MouseButton, Controller as MouseController
+
+# button1 = Button(29)
+# button2 = Button(31)
+# button3 = Button(37)
+
+# pot1 = MCP3008(0)
+# pot2 = MCP3008(1)
+
 pg.init()
 
 pg.mixer.init(frequency=44100,buffer=4096, size=-16, channels=1)
