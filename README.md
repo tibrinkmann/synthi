@@ -51,7 +51,7 @@ https://github.com/spotify/pedalboard
 Und entsprechendes Material zum Löten
 ## Schaltplan
 
-Hier den entsprechenden Schaltplan für den Synthi beachten.
+Hier den entsprechenden (Schaltplan für den Synthi](https://github.com/tibrinkmann/synthi/blob/main/Synthi.pdf) beachten.
 
 ## Beispielvideo
 
@@ -97,7 +97,7 @@ https://www.arduino.cc/reference/en/libraries/bluetoothserial/
 Und entsprechende Materialien zum Löten.
 ## Schaltplan
 
-Siehe REG Schaltplan.
+Siehe [REG Schaltplan](https://github.com/tibrinkmann/synthi/blob/main/REG.pdf).
 
 ## Beispielvideo
 
