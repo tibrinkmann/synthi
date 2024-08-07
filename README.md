@@ -28,7 +28,8 @@ pedalboard:
 https://github.com/spotify/pedalboard
 
 ## Materialien
-
+> [!CAUTION]
+> Materialliste beinhaltet keine Pull-Up Widerstände (siehe [Schaltplan](https://github.com/tibrinkmann/synthi/blob/main/Synthi.pdf)), da wir vermuten, dass diese aktuell einen Fehler verursachen!
 - 1x Raspy 4B (1GB)
 - 1x 3.5" LCD Display mit Touch
 - 1x MicroSD Karte (mind. 16GB)
@@ -51,7 +52,7 @@ https://github.com/spotify/pedalboard
 Und entsprechendes Material zum Löten
 ## Schaltplan
 
-Hier den entsprechenden (Schaltplan für den Synthi](https://github.com/tibrinkmann/synthi/blob/main/Synthi.pdf) beachten.
+Hier den entsprechenden [Schaltplan für den Synthi](https://github.com/tibrinkmann/synthi/blob/main/Synthi.pdf) beachten.
 
 ## Beispielvideo
 
